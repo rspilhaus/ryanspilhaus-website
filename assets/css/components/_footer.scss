@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+//! Footer Styles
+// -----------------------------------------------------------------------------
+
+#footer {
+
+	text-align: center;
+	padding:24px 0 0 0;
+}
+
+#footer p {
+	margin:0;
+ 	line-height: 1.5;
+	font-size:0.75em;
+}
+
+#footer p a {
+	color: $color-body;
+ 	&:hover {
+		color: $color-main;
+	}
+}

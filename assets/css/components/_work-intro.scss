@@ -1,0 +1,70 @@
+// -----------------------------------------------------------------
+//! Work Intro
+// -----------------------------------------------------------------
+
+.work-intro {
+	background: $color-accent;
+	padding:24px 0;
+	@include respond($breakpoint-padding-lg) {
+		padding:48px 0;
+	}
+	@include respond($breakpoint-work-padding) {
+		padding:64px;
+	}
+}
+
+.work-intro .container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	@include respond($breakpoint-padding-lg) {
+		flex-direction: row;
+	}
+}
+
+.work-intro-text {
+	padding:0 24px;
+	color:#fff;
+	@include respond($breakpoint-padding-lg) {
+		width:50%;
+	}
+}
+
+.work-intro-image {
+	padding:48px 24px 0 24px;
+	@include respond($breakpoint-padding-lg) {
+		width:50%;
+		padding:0 24px;
+	}	
+}
+
+// -----------------------------------------------------------------
+//! Typography
+// -----------------------------------------------------------------
+
+.work-intro-text-title {
+	margin:0 0 7px 0;
+	font-size:2em;
+	@include respond($breakpoint-padding-md) {
+		font-size: 2.5em;
+	}
+	@include respond($breakpoint-padding-lg) {
+		font-size:3em;
+	}
+}
+
+.work-intro-text-meta {
+	margin:0 0 23px 0;	
+	font-size:0.875em;
+	font-family: $font-body;
+	font-weight: 700;
+}
+
+.work-intro-text-summary {
+	margin:0;
+	font-size:1em;
+	@include respond($breakpoint-padding-md) {
+		font-size:1.125em;
+		line-height: 1.777777777;
+	}
+}

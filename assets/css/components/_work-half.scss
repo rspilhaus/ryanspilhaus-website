@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------
+//! Work Half
+// -----------------------------------------------------------------
+
+.work-row {
+	display: flex;
+	flex-direction: column;
+	
+	@include respond($breakpoint-padding-lg) {
+		flex-direction: row;	
+		align-items: stretch;
+	}
+}
+
+.work-row-half {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color:#fafafa;
+	padding:24px;
+	@include respond($breakpoint-padding-md) {
+		padding:48px;
+	}
+	@include respond($breakpoint-padding-lg) {
+		width:50%;
+		min-height: 600px;
+	}
+}
+
+.work-row-photo {
+	padding: 24px;
+	overflow: hidden;
+	position: relative;
+	@include respond($breakpoint-padding-lg, "down") {
+		order:-1;
+		min-height: 300px;
+	}
+	@include respond($breakpoint-padding-md, "down") {
+		min-height: 200px;
+	}
+		
+}
+
+.work-row-photo img {
+	max-height: 150px;
+	max-width: 90%;
+	@include respond($breakpoint-padding-md) {
+		max-height: 200px;
+	}
+	@include respond($breakpoint-padding-lg) {
+		max-height: 300px;
+	}
+}
+
+.work-row-half-title {
+	font-size:1.5em;
+	margin:0 0 18px 0;
+	@include respond($breakpoint-padding-md) {
+		font-size: 2em;
+	}
+}
+
+.work-row-half-content {
+	margin:0;
+	font-size:1em;
+	@include respond($breakpoint-padding-md) {
+		font-size:1.125em;
+		line-height: 1.777777777;
+	}
+}

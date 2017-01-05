@@ -1,0 +1,129 @@
+// -----------------------------------------------------------------------------
+//! About Section Styles
+// -----------------------------------------------------------------------------
+
+#about {
+	position: relative;
+	background: $color-off-white;
+	padding:32px 0 32px 0;
+	color: $color-body;
+	@include respond($breakpoint-padding-md) {
+		padding:57px 0 64px 0;
+	}
+}
+
+#about .container {
+	@include clearfix;
+	padding:0 24px;
+	@include respond($breakpoint-padding-md) {padding:0 24px;}
+	@include respond($breakpoint-padding-lg) {padding:0 32px;}
+}
+
+ 
+
+.about-image {
+	max-width: 320px;
+	width:100%;
+	margin:0 auto;
+	display: block;
+	position: relative;
+	@include respond($breakpoint-about-md) {
+		float:left;
+		max-width: 352px;	
+		margin:0;
+	}
+	@include respond($breakpoint-about-lg) {
+		max-width: 524px;
+	}
+}
+
+.about-frame {
+	position: absolute;
+	bottom:-16px;
+	left:-16px;
+	right:-16px;
+	top:128px;
+	border-left:32px solid $color-accent;
+	border-right:32px solid $color-accent;
+	border-bottom:32px solid $color-accent;		
+}
+
+.about-frame-top {
+	content: "";
+	position: absolute;
+	top:112px;
+	left:-16px;
+	right:-16px;
+	height:32px;
+	background: $color-accent;
+	
+}
+
+.about-image img {
+	position: relative;
+}
+
+.about-text {
+	padding:3em 0 0 0;
+	max-width: 42em;
+	margin:0 auto;
+	@include respond($breakpoint-about-md) {
+		padding:1em 0 0 0;
+		margin:0 0 0 416px;
+		max-width: none;
+	}
+	@include respond($breakpoint-about-lg) {
+		margin:0 0 0 588px;
+	}
+}
+
+.about-text-title {
+	margin:0 0 14px 0;	
+	text-align: center;
+	@include respond($breakpoint-about-md) {
+		text-align: left;
+	}
+}
+
+.about-text p {
+	font-size:1em;
+	@include respond($breakpoint-skills) {
+		font-size:1.125em;
+		line-height: 1.777777777;
+	}
+}
+
+.skills-list-holder {
+	@include clearfix;
+}
+.skills-list {
+	padding:0 0 0 1.25em;
+	float:left;
+	width:100%;
+	margin:0;
+	@include respond($breakpoint-skills-sm) {
+		width:50%;	
+	}
+}
+
+.skills-list li {
+	list-style: none;
+	position: relative;
+	
+	@include respond($breakpoint-skills-sm) {
+		padding-right:32px;	
+	}
+}
+
+.skills-list li:before {
+	content:"";
+	width:24px;
+	height:24px;
+	background:url(../svg/check.svg) no-repeat center center;
+	background-size:16px 16px;
+	position: absolute;
+	left:-20px;
+	top:2px;
+	//top:50%;
+	//transform: translateY(-50%);
+}

@@ -30,14 +30,25 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 { 
-		font-family: $font-headings; 
 		line-height: 1.1; 
 		font-weight: 700;
 		margin:1em 0;
+		font-family: $font-display;
 		&:first-child {
 			margin-top: 0;
 		}
 	}
+	
+	h2 {
+		font-size:2em;
+		@include respond($breakpoint-padding-md) {
+			font-size: 2.5em;
+		}
+		@include respond($breakpoint-padding-lg) {
+			font-size:3em;
+		}
+	}
+	
 	
 // -----------------------------------------------------------------------------
 //! COPY
@@ -47,7 +58,6 @@
 		line-height: 1.5;
 		margin: 1em 0; 
 		font-size:1em;
-		font-family: $font-body;
 		&:first-child {
 			margin-top: 0;
 		}
@@ -55,11 +65,10 @@
 
 
 	a {
-		color: $color-blue;
+		color: $color-main;
 		text-decoration: none;
 		transition: all 0.2s ease;
 		&:hover { 
-			text-decoration: underline;
 			transition: all 0.2s ease; 
 		}
 	}
@@ -67,12 +76,34 @@
 	ul,
 	ol {
 		margin:1em 0;
-		padding:0 0 0 24px;
+		padding:0 0 0 1.25em;
 		li {
-			padding:0 0 0 8px;
-			margin:0 0 8px 0;
+			padding:0 0 0 0.75em;
+			margin:0 0 0.5em 0;
 			line-height: 1.5;
 			position: relative;
 
 		}
 	}
+	
+// -----------------------------------------------------------------
+//! Buttons
+// -----------------------------------------------------------------
+
+.btn {
+	background:$color-main;
+	font-weight: bold;
+	margin:0;
+	color:#fff;
+	text-decoration: none;
+	display: inline-block;
+	padding:17px 24px 18px 24px;
+	transition: all 0.4s ease;
+	@include respond($breakpoint-padding-md) {
+		font-size: 1.125em;
+	}
+	
+	&:hover {
+		background:$color-accent;
+	}
+}

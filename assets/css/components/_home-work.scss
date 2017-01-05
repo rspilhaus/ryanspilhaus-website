@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+//! Work Backgrounds for Homepage
+// -----------------------------------------------------------------------------
+
+.home-work-mbb {
+	order:1;
+	background-image: url(../images/home-work-mbb.jpg);
+}
+
+.home-work-ecoag {
+	order: 2;
+	background-image: url(../images/home-work-ecoag.jpg);
+	background-position: center top;
+	@include respond($breakpoint-grid-mid) {
+		order:5;
+	}
+	@include respond($breakpoint-grid-full) {
+		order: 2;
+	}
+}
+
+.home-work-atom {
+	order:3;
+	background-image: url(../images/home-work-atom.jpg);
+}
+
+.home-work-email {
+	order:4;
+	background-image: url(../images/home-work-email.jpg);
+}
+
+.home-work-cat {
+	order:5;
+	background-image: url(../images/home-work-cat.jpg);
+}
+
+.home-work-tdr {	
+	order:6;
+	background-image: url(../images/home-work-tdr.jpg);
+	background-position: center top;
+	@include respond($breakpoint-grid-mid) {
+		order:8;
+	}
+	@include respond($breakpoint-grid-full) {
+		order: 6;
+	}
+}
+
+.home-work-fccpt {
+	order:7;
+	background-image: url(../images/home-work-fccpt.jpg);
+}

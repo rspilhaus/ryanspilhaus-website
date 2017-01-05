@@ -1,0 +1,103 @@
+// -----------------------------------------------------------------
+//! Work Header Area
+// -----------------------------------------------------------------
+
+.work-header {
+	padding: 106px 0 61px 0;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	@include respond($breakpoint-padding-md) {
+		padding: 146px 0 125px 0;
+	}
+	@include respond($breakpoint-padding-lg) {
+		padding: 210px 0 189px 0;
+	}
+}
+
+.work-header .container {
+	max-width: 840px;
+}
+
+
+.work-header-text {
+	text-align: center;
+	color: #fff;
+	font-family: $font-body;
+	font-size: 1em;
+	line-height: 1.666666666666;
+	font-weight: 400;
+	margin:0;
+	@include respond($breakpoint-padding-md) {
+		font-size:1.125em;
+	}
+	@include respond($breakpoint-padding-lg) {
+		font-size:1.5em;
+	}
+}
+
+.work-header-logo {
+	position: absolute;
+	top: 24px;
+	left: 50%;
+	margin-left:-21px;
+	@include respond($breakpoint-padding-lg) {
+		left:24px;
+		margin:0;
+	}
+}
+
+.work-header-logo svg {
+	width: 42px;
+	height: 48px;
+	overflow: visible;
+}
+
+.work-header-logo svg path {
+	fill:#fff;
+}
+
+.work-header-logo svg path.svg-logo-path-rotate {
+	transform-origin: center center;
+	transform: rotate(180deg);
+	transition: all 0.4s ease-in-out;
+}
+
+.work-header-logo:hover svg path.svg-logo-path-rotate {
+	transform: rotate(0deg);
+}
+
+
+// -----------------------------------------------------------------
+//! Specific Headers
+// -----------------------------------------------------------------
+
+
+.work-header-ecoag {
+	background-image: url('../images/work/ecoag/work-header.jpg');
+}
+
+.work-header-mbb {
+	background-image: url('../images/work/mbb/work-header.jpg');
+}
+
+.work-header-blackcat {
+	background-image: url('../images/work/blackcat/work-header.jpg');
+}
+
+.work-header-emails {
+	background-image: url('../images/work/emails/work-header.jpg');
+}
+
+.work-header-atom {
+	background-image: url('../images/work/atom/work-header.jpg');
+}
+
+.work-header-dailyrider {
+	background-image: url('../images/work/dailyrider/work-header.jpg');
+}
+
+.work-header-fccpt {
+	background-image: url('../images/work/fccpt/work-header.jpg');
+}

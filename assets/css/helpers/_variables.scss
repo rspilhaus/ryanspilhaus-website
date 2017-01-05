@@ -2,16 +2,20 @@
 //! Fonts
 // -----------------------------------------------------------------------------
 
-$font-headings: 'Lato', Helvetica, Arial, Sans-serif;
-$font-body: 'Droid Serif', Georgia, Serif;
+$font-body: 'Open Sans', Arial, Helvetica, Sans-serif;
+//$font-display: 'Playfair Display', Georgia, Serif;
+$font-display: 'Rubik', Georgia, Serif;
 
 
 // -----------------------------------------------------------------------------
 //! Colors
 // -----------------------------------------------------------------------------
+$color-body: 		#2e2e2e;
+$color-off-white:	#EAEAEA;
 
-$color-blue: 	#00b0e5;
-$color-body: 	#666666;
+$color-main:		#22d685;
+$color-accent:		#24d3d4;
+
 
 // -----------------------------------------------------------------------------
 //! Z-indexes
@@ -28,4 +32,26 @@ $z_index-level0: -1;
 // -----------------------------------------------------------------------------
 //! Breakpoints 
 // -----------------------------------------------------------------------------
+
+$breakpoint-padding-lg: 832px;
+$breakpoint-padding-md: 532px;
+
+$breakpoint-grid-full: 832px;
+$breakpoint-grid-mid: 532px;
+
+$breakpoint-display-lg: 1400px;
+$breakpoint-display-md: 728px;
+$breakpoint-display-sm: 480px;
+
+$breakpoint-item-details-lg: 728px;
+
+$breakpoint-skills: 1020px;
+$breakpoint-skills-sm: 560px;
+
+$breakpoint-about-lg: 1220px;
+$breakpoint-about-md: 1020px;
+
+$breakpoint-work-padding: 1024px;
+
+$breakpoint-work-showcase: 1600px;
 

@@ -1,0 +1,6 @@
+<svg id="svg-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8">
+  <style>
+    .svg-arrow-path{fill:#FFFFFF;}
+  </style>
+  <path class="svg-arrow-path" d="M0 2.06L2 0l4 4 4-4 2 2.06L6 8 0 2.06z"/>
+</svg>

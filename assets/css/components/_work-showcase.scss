@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------
+//! Work Showcase at bottom of work pages
+// -----------------------------------------------------------------
+
+.work-showcase {
+	background: $color-off-white;
+	padding:48px 0px 0px 0px;
+	text-align: center;
+	@include respond($breakpoint-padding-lg) {
+		padding:80px 24px 0 24px;		
+	}
+}
+
+.work-showcase-image {
+	margin:48px 0 0 0;	
+	width:100%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 6px;
+}

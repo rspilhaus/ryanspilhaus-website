@@ -1,0 +1,188 @@
+// -----------------------------------------------------------------------------
+//! Hero Background
+// -----------------------------------------------------------------------------
+
+
+@keyframes heroAnimate {
+    0%{background-position:0% 50%}
+    100%{background-position:76% 50%}
+}
+
+#hero {
+	background: $color-main;
+	background: linear-gradient(270deg, $color-main, $color-accent, $color-main, $color-accent);
+	background-size: 800% 800%;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22d685', endColorstr='#24d3d4',GradientType=1 );
+	animation: heroAnimate 30s linear infinite;
+	position: relative;
+	color: #fff;
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 32px 0 40px 0;
+	@include respond($breakpoint-display-sm) {
+		padding: 64px 0 78px 0;	
+	}
+}
+linear-gradient(to right, #22d686, #24d3d3, #22d686, #24d3d3)
+
+
+#hero:before {
+	content: "";
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background: url(../svg/dot.svg) repeat;
+	opacity: 0.15; 
+}
+
+
+// -----------------------------------------------------------------------------
+//! Hero Container
+// -----------------------------------------------------------------------------
+
+#hero .container {
+	position: relative;
+	@include respond($breakpoint-padding-lg) {
+		padding:0 32px;
+	}
+}
+
+#hero .hero-intro {
+	color: rgba(255,255,255,0.6);
+	font-weight: 300;
+	font-size:1.5em;
+	line-height: 1;
+	margin:0;
+
+	@include respond($breakpoint-display-md) {
+		font-size:2em;
+	}
+
+}
+
+
+#hero .hero-statement {
+	font-family: $font-display;
+	font-weight: 700;
+	font-size:11vw;
+	line-height: 1.25;
+	margin:0;
+	transition: all 0.2s ease;
+	text-align: center;
+	span{
+		white-space: nowrap;
+		position: relative;
+		display: block;
+		&:last-of-type{
+			line-height: 1.25;
+			@include respond($breakpoint-display-md) {
+				line-height: 1.15;
+			}
+		}
+	}
+	@include respond($breakpoint-display-sm) {
+		text-align: left;
+	}
+	@include respond($breakpoint-display-md) {
+		line-height: 1;
+		font-size:8.05vw;
+	}
+	@include respond($breakpoint-display-lg) {
+		font-size:7em;
+	}
+}
+
+
+#hero a.highlight {
+	color:#fff;	
+	// Use the default underline for browsers that
+	// don’t support @supports (<= IE11)
+	text-decoration: underline;
+	// Use the filter in browsers that support @supports, but aren’t Safari
+	@supports not (-webkit-text-decoration-skip: objects) {
+		filter: url('http://ryanspilhaus:8888#svg-underline');
+		text-decoration: none;
+		color:#fff;
+	}
+	// And then disable the filter in Edge and
+	// use the default underline instead
+	@supports (-ms-ime-align: auto) {
+		color: red;
+		filter: none;
+		text-decoration: underline;
+	}
+	&:hover {
+		color: rgba(255,255,255,0.8);
+	}
+
+}
+
+// -----------------------------------------------------------------------------
+//! Scroll Arrow
+// -----------------------------------------------------------------------------
+
+
+.down-arrow {
+	width:18px;			
+	position: absolute;
+	bottom:88px;
+	left:50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	@include respond($breakpoint-display-sm) {
+		bottom:32px;
+	}
+}
+
+.down-arrow-dot {
+	width:4px;
+	height:4px;
+	background:#fff;
+	border-radius: 50%;
+	margin:0 auto 4px auto;
+	opacity: 0;	
+	&:nth-child(2){
+		width:6px;
+		height:6px;
+	}			
+	&:nth-child(3) {
+		width:8px;
+		height:8px;
+	}
+}
+
+.down-arrow-arrow {
+	width:18px;
+	height:12px;
+	background:url('../svg/arrow.svg') no-repeat 0 0;
+	background-size: 18px 12px;
+	opacity: 0;
+}
+
+.animate-arrow {
+	animation: animate-arrow 3s infinite ease-in-out;
+	&:nth-child(2){
+		animation-delay: 0.2s;
+	}
+	&:nth-child(3){
+		animation-delay: 0.4s;
+	}
+	&:nth-child(4){
+		animation-delay: 0.6s;
+	}
+}
+
+
+@keyframes animate-arrow {
+  0%   	{opacity: 0;}
+  10% 	{opacity: 0.7;}
+  40% 	{opacity: 0.7;}
+  60%	{opacity: 0.7;}
+  80%	{opacity: 0;}
+  100% 	{opacity: 0;}
+}

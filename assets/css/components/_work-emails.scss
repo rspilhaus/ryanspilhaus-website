@@ -1,0 +1,54 @@
+.work-emails {
+	background: $color-main;
+	padding:48px 0px 48px 0px;
+	text-align: center;
+	color:#fff;
+	@include respond($breakpoint-padding-lg) {
+		padding:80px 24px 16px 24px;		
+	}
+}
+
+.work-email-title {
+	font-size:1.5em;
+	margin:0 0 18px 0;
+	@include respond($breakpoint-padding-md) {
+		font-size: 2em;
+	}
+
+}
+
+.work-email-text {
+	max-width: 660px;
+	margin:0 auto;
+	font-size:1em;
+	@include respond($breakpoint-padding-md) {
+		font-size:1.125em;
+		line-height: 1.777777777;
+	}
+	
+}
+
+.work-email-clients {
+	margin:40px auto 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1400px;
+	padding:0 16px;
+}
+
+.email-client {
+	width:100%;
+	padding:16px;
+	@include respond($breakpoint-padding-md) {
+		width:50%;
+	}
+	@include respond($breakpoint-padding-lg) {
+		width:33%;
+	}
+}
+
+.email-client-inner {
+	border-radius: 3px;
+	padding:16px;
+	background:darken($color-main, 3%);
+}
