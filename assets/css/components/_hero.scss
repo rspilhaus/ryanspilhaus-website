@@ -105,9 +105,9 @@ linear-gradient(to right, #22d686, #24d3d3, #22d686, #24d3d3)
 	text-decoration: underline;
 	// Use the filter in browsers that support @supports, but aren’t Safari
 	@supports not (-webkit-text-decoration-skip: objects) {
-		filter: url('http://ryanspilhaus.com#svg-underline');
+		filter: url('https://ryanspilhaus.com#svg-underline');
 		text-decoration: none;
-		color:#fff;
+		color:#fff; 
 	}
 	// And then disable the filter in Edge and
 	// use the default underline instead
