@@ -4,7 +4,7 @@
 ?>
 
 <header class="work-header work-header-dailyrider">
-	<a href="/" class="work-header-logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
+	<a href="/" class="work-header-logo logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
 	<div class="container">
 		<h2 class="work-header-text">A website for everyday riders, because not everyone looks good in&nbsp;spandex.  </h2>
 	</div><!--end .container-->

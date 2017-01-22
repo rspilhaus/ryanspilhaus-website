@@ -54,17 +54,17 @@
 	overflow: visible;
 }
 
-.work-header-logo svg path {
+.logo svg path {
 	fill:#fff;
 }
 
-.work-header-logo svg path.svg-logo-path-rotate {
+.logo svg path.svg-logo-path-rotate {
 	transform-origin: center center;
 	transform: rotate(180deg);
 	transition: all 0.4s ease-in-out;
 }
 
-.work-header-logo:hover svg path.svg-logo-path-rotate {
+.logo:hover svg path.svg-logo-path-rotate {
 	transform: rotate(0deg);
 }
 

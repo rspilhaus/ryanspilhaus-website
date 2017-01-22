@@ -4,7 +4,7 @@
 ?>
 
 <header class="work-header work-header-ecoag">
-	<a href="/" class="work-header-logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
+	<a href="/" class="work-header-logo logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
 	<div class="container">
 		<h2 class="work-header-text">A pair of sites for a great nonprofit organization, helping them fulfill their important&nbsp;mission.</h2>
 	</div><!--end .container-->

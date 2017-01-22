@@ -4,7 +4,7 @@
 ?>
 
 <header class="work-header work-header-emails">
-	<a href="/" class="work-header-logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
+	<a href="/" class="work-header-logo logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
 	<div class="container">
 		<h2 class="work-header-text">Table-based layouts, inline styles, inconsistent standards and dozens of clients to test in? I got this&nbsp;covered.</h2>
 	</div><!--end .container-->

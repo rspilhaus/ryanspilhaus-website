@@ -4,7 +4,7 @@
 ?>
 
 <header class="work-header work-header-mbb">
-	<a href="/" class="work-header-logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
+	<a href="/" class="work-header-logo logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
 	<div class="container">
 		<h2 class="work-header-text">Don&rsquo;t just say you create action &ndash; show it. A top-notch agency deserves a top-notch website to show the&nbsp;world. </h2>
 	</div><!--end .container-->

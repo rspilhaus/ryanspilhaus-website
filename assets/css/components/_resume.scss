@@ -3,5 +3,30 @@
 // -----------------------------------------------------------------
 
 .resume-header {
-	
+	background: $color-main;
+	background: linear-gradient(270deg, $color-main, $color-accent, $color-main, $color-accent);
+	background-size: 800% 800%;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22d685', endColorstr='#24d3d4',GradientType=1 );
+	animation: heroAnimate 30s linear infinite;
+	position: relative;
+	color: #fff;
+	min-height: 300px;
+	text-align: center;
+}
+
+.resume-header-logo {
+	position: absolute;
+	top: 24px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.resume-header-logo svg {
+	width: 42px;
+	height: 48px;
+	overflow: visible;
+	@include respond($breakpoint-padding-lg) {
+		width: 84px;
+		height: 96px;	
+	}
 }

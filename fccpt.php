@@ -4,7 +4,7 @@
 ?>
 
 <section class="work-header work-header-fccpt">
-	<a href="/" class="work-header-logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
+	<a href="/" class="work-header-logo logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
 	<div class="container">
 		<h2 class="work-header-text">Having a lot of content doesn&rsquo;t mean a site can&rsquo;t be attractive, well-organized and&nbsp;functional.</h2>
 	</div><!--end .container-->

@@ -4,7 +4,7 @@
 ?>
 
 <header class="work-header work-header-blackcat">
-	<a href="/" class="work-header-logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
+	<a href="/" class="work-header-logo logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
 	<div class="container">
 		<h2 class="work-header-text">Fighting for Fireworks on Facebook. Helping to turn a setback into brand awareness with a cheeky&nbsp;microsite.</h2>
 	</div><!--end .container-->

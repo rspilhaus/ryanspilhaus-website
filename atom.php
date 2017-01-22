@@ -4,7 +4,7 @@
 ?>
 
 <header class="work-header work-header-atom">
-	<a href="/" class="work-header-logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
+	<a href="/" class="work-header-logo logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
 	<div class="container">
 		<h2 class="work-header-text">Helping to end nuclear weapons proliferation through persuasive design and quality&nbsp;code.</h2>
 	</div><!--end .container-->
