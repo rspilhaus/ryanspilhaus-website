@@ -22,7 +22,7 @@
 	<div class="container">
 		<h3 class="resume-block-title">Work Experience</h3>
 		<div class="resume-work">
-			<h4 class="resume-work-title">Front-End Developer - MBB+</h4>
+			<h4 class="resume-work-title">Front-End Developer - MBB+ Advertising&nbsp;Agency</h4>
 			<p class="resume-work-dates">March 2016 - Present</p>
 			<ul>
 				<li>Develop responsive web sites using modern best-practices and&nbsp;techniques</li>
@@ -33,7 +33,7 @@
 			</ul>
 		</div><!--end .resume-work-->
 		<div class="resume-work">
-			<h4 class="resume-work-title">UI/UX Developer + Designer - Cstraight Media</h4>
+			<h4 class="resume-work-title">UI/UX Developer + Designer - Cstraight&nbsp;Media</h4>
 			<p class="resume-work-dates">July 2012 - March 2016</p>
 			<ul>
 				<li>Design and develop responsive web sites using modern best-practices and&nbsp;techniques</li>
@@ -45,7 +45,7 @@
 			</ul>
 		</div><!--end .resume-work-->
 		<div class="resume-work">
-			<h4 class="resume-work-title">Web Director - McLean Bible Church</h4>
+			<h4 class="resume-work-title">Web Director - McLean Bible&nbsp;Church</h4>
 			<p class="resume-work-dates">November 2010 - June 2012</p>
 			<ul>
 				<li>Build and maintain websites and microsites for 14,000 member church in&nbsp;Virginia</li>
