@@ -110,7 +110,7 @@
 		</div>
 		<div class="about-text">
 			<h2 class="about-text-title">About Me</h2>
-			<p>Hello! I'm Ryan Spilhaus. I’m a front-end developer/designer living in Kansas City, Missouri. I’m passionate about building amazing things for the web, and I’ve spent years honing my craft at digital and advertising agencies. Although my expertise is in front-end development, I have experience with each stage involved in a web project, from wireframing to design to development. </p>
+			<p>Hello! I’m Ryan Spilhaus. I’m a front-end developer + designer living in Kansas City, Missouri. I’m passionate about building amazing things for the web, and I’ve spent years honing my craft at digital and advertising agencies. Although my expertise is in front-end development, I have experience with each stage involved in a web project, from wireframing to design to development. </p>
 
 			<p>I’ve worked with a variety of clients on all sorts of projects. Whether it’s for a non-profit or for-profit, big corporation or small storefront, I love finding and building creative solutions that are both functional and attractive.</p>
 
