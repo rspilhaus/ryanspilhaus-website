@@ -35,6 +35,7 @@
 				<h3 class="grid-item-title">MBB Agency</h3>
 				<ul class="grid-item-specifics">
 					<li>Front-end Development</li>
+					<li>WordPress Development</li>
 				</ul>
 			</div><!--end .grid-item-details-->
 		</a>
@@ -68,16 +69,17 @@
 				</ul>
 			</div><!--end .grid-item-details-->
 		</a>
-		<a class="grid-item grid-item-third home-work-cat" href="/blackcat">
+		<a class="grid-item grid-item-third home-work-side" href="/side-projects">
 			<!-- Back the Cat -->
 			<div class="grid-item-details">
-				<h3 class="grid-item-title">Black Cat Fireworks</h3>
+				<h3 class="grid-item-title">Side Projects</h3>
 				<ul class="grid-item-specifics">
 					<li>Front-end Development</li>
+					<li>Design</li>
 				</ul>
 			</div><!--end .grid-item-details-->
 		</a>
-		<a class="grid-item grid-item-half grid-item-primary home-work-tdr" href="/thedailyrider">
+		<a class="grid-item grid-item-half home-work-tdr" href="/thedailyrider">
 			<!-- TDR -->
 			<div class="grid-item-details">
 				<h3 class="grid-item-title">The Daily Rider</h3>
@@ -87,7 +89,7 @@
 				</ul>
 			</div><!--end .grid-item-details-->
 		</a>
-		<a class="grid-item grid-item-half home-work-fccpt" href="/fccpt">
+		<a class="grid-item grid-item-half grid-item-primary home-work-fccpt" href="/fccpt">
 			<!-- FCCPT -->
 			<div class="grid-item-details">
 				<h3 class="grid-item-title">FCCPT</h3>

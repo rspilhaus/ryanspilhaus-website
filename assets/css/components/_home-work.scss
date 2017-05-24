@@ -29,24 +29,34 @@
 	background-image: url(../images/home-work-email.jpg);
 }
 
+/*
 .home-work-cat {
 	order:5;
 	background-image: url(../images/home-work-cat.jpg);
+}
+*/
+
+.home-work-side {
+	order:5;
+	background-image: url(../images/home-work-side.jpg);
 }
 
 .home-work-tdr {	
 	order:6;
 	background-image: url(../images/home-work-tdr.jpg);
 	background-position: center top;
+/*
 	@include respond($breakpoint-grid-mid) {
 		order:8;
 	}
 	@include respond($breakpoint-grid-full) {
 		order: 6;
 	}
+*/
 }
 
 .home-work-fccpt {
 	order:7;
 	background-image: url(../images/home-work-fccpt.jpg);
 }
+

@@ -32,10 +32,6 @@
 
 .grid-item-half {
 	width: 100%;
-	background-color:#aaa;
-	&:nth-of-type(odd){
-		background-color:#ccc;
-	}
 	@include respond($breakpoint-grid-mid) {
 		width:50%;
 	}
@@ -50,10 +46,6 @@
 
 .grid-item-third {
 	width:100%;
-	background-color:#ddd;
-	&:nth-of-type(odd){
-		background-color:#bbb;
-	}
 	@include respond($breakpoint-grid-mid) {
 		width:50%;
 	}
