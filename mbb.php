@@ -6,7 +6,7 @@
 <header class="work-header work-header-mbb">
 	<a href="/" class="work-header-logo logo"><?php echo file_get_contents("build/svg/logo.svg"); ?></a>
 	<div class="container">
-		<h2 class="work-header-text">Don&rsquo;t just say you&rsquo;re an agency of action &ndash; proove it. A top-notch agency deserves a top-notch website to show the&nbsp;world. </h2>
+		<h2 class="work-header-text">Don&rsquo;t just say you&rsquo;re an agency of action &ndash; prove it. A top-notch agency deserves a top-notch website to show the&nbsp;world. </h2>
 	</div><!--end .container-->
 </header><!--end .work-header-->
 
